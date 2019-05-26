@@ -5,7 +5,7 @@ node {
     
     stage('Build') {
      
-            sh 'sh label: '', script: 'mvn package'
+             sh label: '', script: 'mvn package'
         }
     
     
