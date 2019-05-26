@@ -3,7 +3,7 @@ node {
         git 'https://github.com/karangus/project.git'
     }
     
-    stage('Build & Package') {
+    stage('Build') {
      
             sh 'sh label: '', script: 'mvn package'
         }
